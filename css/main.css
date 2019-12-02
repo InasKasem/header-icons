@@ -24,7 +24,7 @@ h1 {
   padding: .4rem 0;
 }
 
-nav{
+nav {
   background-color: #d05c2e;
 }
 
@@ -32,6 +32,8 @@ nav ul {
   display: flex;
   justify-content: center;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav li {
@@ -39,12 +41,15 @@ nav li {
   text-align: center;
   font-size: 1.125em;
   border: 1px solid #a63f38;
+  margin: 0;
 }
 
 a {
   color: #fff;
   display: inline-block;
   width: 100%;
+  text-decoration: none;
+  padding: .5rem 0;
 }
 
 a:hover {
@@ -54,7 +59,16 @@ a:hover {
 div {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  padding: .5em;
+  padding: .5em 0;
   justify-content: space-between;
+  align-items: center;
+}
+
+div h1 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 40px;
 }
